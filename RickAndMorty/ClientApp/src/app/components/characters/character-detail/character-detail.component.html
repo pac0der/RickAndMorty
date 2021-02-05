@@ -1,0 +1,36 @@
+<section class="container my-3" *ngIf="!this.isLoading">
+    <div class="row">
+        <button type="button" routerLink="/" class="btn btn-link p-0">
+            <img src="data:image/png;base64,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"
+                class="back-button" />
+        </button>
+    </div>
+    <div class="card-container p-3 row">
+        <div class="col-md-12 card custom-card">
+            <div class="row p-2">
+                <div class="col-md-4 text-center p-5 d-flex justify-content-center">
+                    <img [src]="character.image" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <div class="font-weight-bold"> {{character.name}} </div>
+                    <div class="mt-2 font-size-14 text-gray">
+                        <small class="text-gray"> Species: </small>
+                        <div>{{character.species}}</div>
+                        <small class="text-gray"> Gender: </small>
+                        <div>{{character.gender}}</div>
+                        <small class="text-gray"> Status: </small>
+                        <div>{{character.status}}</div>                       
+                    </div>
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <small class="text-gray"> Location: </small>
+                    <div>{{location.name}}</div>
+                    <small class="text-gray mt-3"> Type: </small>
+                    <div>{{location.type}}</div>
+                    <small class="text-gray mt-3"> Dimension: </small>
+                    <div>{{location.dimension}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

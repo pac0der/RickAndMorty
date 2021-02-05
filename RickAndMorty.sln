@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Presentacion", "RickAndMorty\RickAndMorty.Presentacion.csproj", "{C3C31152-5A73-4468-8DA5-4E8123F60E63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{DEE98500-1D23-4CB2-883F-6F3863BD4DCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{A9F4A62C-8629-4BA6-8D61-4D3ADBDA881D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{E1BB4B06-EF94-4A80-9774-BC577A911DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Character.Api", "RickAndMorty.Character.Api\RickAndMorty.Character.Api.csproj", "{08D2379D-0734-4783-8EA4-B53FC40DA6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Characters.Framework", "RickAndMorty.Characters.Framework\RickAndMorty.Characters.Framework.csproj", "{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C31152-5A73-4468-8DA5-4E8123F60E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C31152-5A73-4468-8DA5-4E8123F60E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C31152-5A73-4468-8DA5-4E8123F60E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C31152-5A73-4468-8DA5-4E8123F60E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D2379D-0734-4783-8EA4-B53FC40DA6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D2379D-0734-4783-8EA4-B53FC40DA6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D2379D-0734-4783-8EA4-B53FC40DA6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D2379D-0734-4783-8EA4-B53FC40DA6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3C31152-5A73-4468-8DA5-4E8123F60E63} = {DEE98500-1D23-4CB2-883F-6F3863BD4DCE}
+		{08D2379D-0734-4783-8EA4-B53FC40DA6CF} = {E1BB4B06-EF94-4A80-9774-BC577A911DCA}
+		{11C71BC5-9BE4-4B8A-B8EF-0A1F0990206C} = {A9F4A62C-8629-4BA6-8D61-4D3ADBDA881D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641803AE-6928-4D23-9CC8-F7B0B5CCEC57}
+	EndGlobalSection
+EndGlobal
